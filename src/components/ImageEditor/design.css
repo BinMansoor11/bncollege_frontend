@@ -1,0 +1,17 @@
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+.grow:hover {
+  transform: scale(1.1);
+}
+
+#dropdown-item-button {
+  color: black;
+  background-color: white;
+  border: 2px solid #d0d0d0;
+}
+#dropdown-item-button:hover {
+  color: black;
+  background-color: #f8f9fb;
+  border: 2px solid #d0d0d0;
+}

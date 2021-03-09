@@ -1,0 +1,14 @@
+.imge:hover {
+  border: 1px dashed gray;
+  /* position: "absolute";
+  overflow: "hidden"; */
+}
+.imge {
+  border: 1px solid transparent;
+  /* position: "absolute";
+  overflow: "hidden"; */
+}
+
+.rotate {
+  transform: rotateX(180deg);
+}

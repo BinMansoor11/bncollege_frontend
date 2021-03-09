@@ -1,0 +1,43 @@
+/*PRODUCT IMAGE ANIMATION*/
+
+.fade-in {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.5;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+.container:hover .text {
+  opacity: 0.9;
+}
+
+.text {
+  background-color: #333;
+  color: white;
+  font-size: 13px;
+  padding: 14px 28px;
+}
